@@ -102,7 +102,7 @@ Outputs include:
 
 # License
 
-N Body Simulation is licensed under the MIT License. See the [license.txt](https://github.com/GiovanniPellegrini/not_intellij_idea/blob/master/license.txt) file for details.
+Galaxy zoo is licensed under the MIT License.
 
 - **Open a pull request**: If you have written code that improves the project, you can submit it as a pull request.
 - **Report bugs**: If you find a bug, you can report it by creating an issue. Please provide a detailed description of the bug and include the steps necessary to reproduce it.
