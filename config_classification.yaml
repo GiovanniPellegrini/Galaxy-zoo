@@ -1,0 +1,19 @@
+model:
+  network_id: classification
+  channel_count_hidden: 16
+  convolution_kernel_size: 3
+  mlp_hidden_unit_count: 50
+
+data:
+  image_path: "data/images/images_training_rev1"
+  label_path: "data/exercise_1/labels.csv"
+  input_image_shape: [64, 64]
+  batch_size: 512
+
+  validation_fraction: 0.1
+  test_fraction: 0.2
+
+training:
+  num_epochs: 20
+  learning_rate: 0.02
+  weight_decay: 1e-5

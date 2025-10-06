@@ -1,0 +1,18 @@
+model:
+  network_id: regression
+  channel_count_hidden: 16
+  convolution_kernel_size: 3
+  mlp_hidden_unit_count: 128
+
+data:
+  image_path: "data/images/images_training_rev1"
+  label_path: "data/labels.csv"
+  input_image_shape: [64, 64]
+  batch_size: 512
+  validation_fraction: 0.1
+  test_fraction: 0.1
+
+training:
+  num_epochs: 20
+  learning_rate: 0.001
+  weight_decay: 1e-6
